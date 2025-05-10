@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <img
-        src="/public/assets/spyxfamilylogo.png"
+        src={process.env.PUBLIC_URL + "/assets/spyxfamilylogo.png"}
         alt="Spy x Family Logo"
         className="footer-logo"
       />
@@ -15,14 +15,20 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src=/public/assets/netflix.png" alt="Netflix" className="footer-icon" />
+          <img
+            src={process.env.PUBLIC_URL + "/public/assets/netflix.png"}
+            alt="Netflix" 
+            className="footer-icon" />
         </a>
         <a
           href="https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family?srsltid=AfmBOoroPRbhmEiFxTM_xvniyeDNxxRZcuwRGlRHe4ZhvMtxjHTU-MC6"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/crunchyroll.png" alt="Crunchyroll" className="footer-icon" />
+          <img
+            src={process.env.PUBLIC_URL +  "/public/assets/crunchyroll.png"}
+            alt="Crunchyroll" 
+            className="footer-icon" />
         </a>
       </div>
 
