@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spy-x-family/static/css/main.efd386e3.css",
+    "main.js": "/spy-x-family/static/js/main.e4d95dca.js",
+    "static/media/about-bg.png": "/spy-x-family/static/media/about-bg.582b065d591bf2d3ea29.png",
+    "index.html": "/spy-x-family/index.html",
+    "main.efd386e3.css.map": "/spy-x-family/static/css/main.efd386e3.css.map",
+    "main.e4d95dca.js.map": "/spy-x-family/static/js/main.e4d95dca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efd386e3.css",
+    "static/js/main.e4d95dca.js"
+  ]
+}
